@@ -143,17 +143,12 @@ df['Отклонение_%'] = (df['Разница'].abs() / ((df['ХВС_ИТП
 ```bash
 git clone https://github.com/inventio-leaders/backend_lct.git
 cd backend_lct
-python -m venv venv
-source venv/bin/activate      # macOS/Linux
-# venv\Scripts\activate      # Windows
-pip install -r requirements.txt
 ```
 
 ### Docker (Убедитесь, что вы установили Docker)
 
 ```bash
 docker-compose up --build
-
 ```
 
 ---
